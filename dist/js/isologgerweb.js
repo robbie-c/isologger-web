@@ -50,7 +50,7 @@ AjaxJQueryOutput.prototype._stopTimer = function _startTimer() {
   }
 };
 
-AjaxJQueryOutput.prototype.receive = function receive(logEvent) {
+AjaxJQueryOutput.prototype.consume = function receive(logEvent) {
   this.cache.push(logEvent);
 
   if (this.enabled) {
