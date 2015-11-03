@@ -9,6 +9,8 @@ var defaultOps = {
 };
 
 function AjaxJQueryOutput(opts) {
+  opts = opts || {};
+
   this.url = opts.url || defaultOps.url;
   this.contentType = opts.contentType || defaultOps.contentType;
   this.stringify = opts.stringify || defaultOps.stringify;
