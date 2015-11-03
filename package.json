@@ -1,0 +1,32 @@
+{
+  "name": "isologger-web",
+  "version": "0.0.1",
+  "description": "Web transforms and outputs for IsoLogger",
+  "main": "src/IsoLoggerWeb.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://robbie-c@github.com/robbie-c/isologger-web.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robbie-c/isologger-web/issues"
+  },
+  "homepage": "https://github.com/robbie-c/isologger-web#readme",
+  "devDependencies": {
+    "browserify": "^12.0.1",
+    "eslint": "^1.8.0",
+    "gulp": "^3.9.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.4.2",
+    "gulp-util": "^3.0.7",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
