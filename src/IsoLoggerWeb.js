@@ -1,4 +1,3 @@
-
 var defaultOps = {
   url: '/log',
   contentType: 'application/json; charset=utf-8',
@@ -77,13 +76,13 @@ AjaxJQueryOutput.prototype._onTimer = function _onTimer() {
       timeout: 10 * 1000,
       cache: false,
       processData: false
-    }).success(function() {
+    }).success(function () {
       self.currentPayload = [];
       self.timerMultiplier = 1;
     }).error(function () {
       // back off exponentially
       self.timerMultiplier *= 2;
-    }).always(function() {
+    }).always(function () {
       self._startTimer();
     });
   }
